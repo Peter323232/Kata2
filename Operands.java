@@ -10,7 +10,7 @@ public class Operands {
         }
         return aS;
     }
-    public String [] metodOperB (String B,String input,char op,int index2,int x,int uwu) { //если эта хуета равна правде тогда б строка
+    public String [] metodOperB (String B,String input,char op,int index2,int x,int uwu) {
         String[] operand2 = new String[2];
         if (B.charAt(0)=='"' &&  B.charAt(uwu) == '"') {
             operand2[0] = B;
